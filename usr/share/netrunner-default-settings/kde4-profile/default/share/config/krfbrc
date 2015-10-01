@@ -1,3 +1,6 @@
+[MainWindow]
+startMinimized=true
+
 [Security]
 allowUnattendedAccess=true
 desktopPassword=ﾳﾶﾩﾺ
