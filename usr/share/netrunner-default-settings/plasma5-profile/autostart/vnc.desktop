@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=x11vnc -norepeat -shared -xdmsvc -loop
+Terminal=false
+Type=Application
+X-DBUS-StartupType=unique
