@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=x11vnc -norepeat -shared -xdmsvc -loop
+Exec=websockify --wrap-mode=respawn --web /usr/share/novnc/ 5900 -- krfb --nofork
 Terminal=false
 Type=Application
 X-DBUS-StartupType=unique
