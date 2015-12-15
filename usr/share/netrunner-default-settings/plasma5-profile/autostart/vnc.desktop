@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=websockify --wrap-mode=respawn --web /usr/share/novnc/ 5900 -- krfb --nofork
+Exec=websockify --wrap-mode=respawn --web /usr/share/novnc/ 5900 -- krfb
 Terminal=false
 Type=Application
 X-DBUS-StartupType=unique
