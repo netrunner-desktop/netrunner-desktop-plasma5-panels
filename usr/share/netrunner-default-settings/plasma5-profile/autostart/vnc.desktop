@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=websockify --web /usr/share/novnc/ 5900 -- x11vnc -repeat -shared -xdmsvc -nossl -ncache_cr
+Exec=x11vnc -forever -shared -xdmsvc -ncache_cr -http -http_oneport
 Terminal=false
 Type=Application
 X-DBUS-StartupType=unique
