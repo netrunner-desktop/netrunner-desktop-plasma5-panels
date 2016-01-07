@@ -1,5 +1,0 @@
-[Desktop Entry]
-Exec=websockify --web /usr/share/novnc/ 5901 localhost:5900
-Terminal=false
-Type=Application
-X-DBUS-StartupType=unique
