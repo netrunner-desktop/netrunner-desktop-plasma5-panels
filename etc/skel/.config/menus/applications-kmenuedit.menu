@@ -59,8 +59,6 @@
    <Filename>steam.desktop</Filename>
    <Filename>grub-customizer.desktop</Filename>
    <Filename>kde4-importwizard.desktop</Filename>
-   <Filename>debian-uxterm.desktop</Filename>
-   <Filename>debian-xterm.desktop</Filename>
    <Filename>kde4-marble_shp.desktop</Filename>
    <Filename>kde4-marble_osm.desktop</Filename>
    <Filename>kde4-marble_kmz.desktop</Filename>
@@ -241,8 +239,6 @@
   <Exclude>
    <Filename>virtualbox.desktop</Filename>
    <Filename>kde4-importwizard.desktop</Filename>
-   <Filename>debian-uxterm.desktop</Filename>
-   <Filename>debian-xterm.desktop</Filename>
    <Filename>kde4-akregator.desktop</Filename>
    <Filename>gnome-disks.desktop</Filename>
   </Exclude>
@@ -275,8 +271,6 @@
    <Filename>kde4-k3b.desktop</Filename>
    <Filename>kde4-yakuake.desktop</Filename>
    <Filename>grub-customizer.desktop</Filename>
-   <Filename>debian-uxterm.desktop</Filename>
-   <Filename>debian-xterm.desktop</Filename>
   </Exclude>
   <Include>
    <Filename>virtualbox.desktop</Filename>
