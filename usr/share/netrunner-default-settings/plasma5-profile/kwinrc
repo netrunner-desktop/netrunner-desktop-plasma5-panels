@@ -78,7 +78,6 @@ BorderSize=1
 ButtonsOnLeft=M
 ButtonsOnRight=IA_X
 CustomButtonPositions=true
-PluginLib=Oxygen
 ShowToolTips=false
 
 [TabBox]
@@ -123,5 +122,3 @@ BorderSize=Normal
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=true
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__FormaN
