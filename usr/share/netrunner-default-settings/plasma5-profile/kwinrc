@@ -1,12 +1,9 @@
 [Compositing]
 AnimationSpeed=1
 GLColorCorrection=false
-GLCore=false
-GLPlatformInterface=glx
 GLPreferBufferSwap=a
-GLTextureFilter=2
+GLTextureFilter=0
 HiddenPreviews=5
-OpenGLIsUnsafe=false
 UnredirectFullscreen=false
 XRenderSmoothScale=false
 
@@ -58,7 +55,7 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
-blurEnabled=true
+blurEnabled=false
 contrastEnabled=false
 enforcedecoEnabled=false
 screenedgeEnabled=false
@@ -69,6 +66,12 @@ windowgeometryEnabled=false
 kwin4_effect_fadeEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_translucencyEnabled=false
+kwin4_effect_loginEnabled=false
+logoutEnabled=false
+kwin4_effect_translucencyEnabled=false
+kwin4_effect_windowapertureEnabled=false
+desktopgridEnabled=false
+presentwindowsEnabled=false
 
 [Style]
 BorderSize=1
