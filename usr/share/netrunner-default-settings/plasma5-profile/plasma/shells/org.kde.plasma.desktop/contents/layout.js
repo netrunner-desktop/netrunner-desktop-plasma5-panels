@@ -46,19 +46,17 @@ delete actionPlugins;
 for (var i = 0; i < screenCount; ++i) {
     var id = createActivity("Netrunner Desktop", "org.kde.plasma.folder")
     var desktopsArray = desktopsForActivity(id);
-    
+
     for (var j = 0; j < desktopsArray.length; j++) {
-        desktopsArray[j].wallpaperPlugin = 'org.kde.image'
-        desktopsArray[j].wallpaperMode = 'SingleImage'
+        desktopsArray[j].wallpaperPlugin = 'org.kde.color'
 
         desktopsArray[j].currentConfigGroup = new Array("General");
-        desktopsArray[j].writeConfig("positions","1,8,desktop:/welcome.desktop,0,2,desktop:/Network,0,1,desktop:/mycomputer.desktop,0,0,desktop:/ubiquity-kdeui.desktop,0,3")
+        desktopsArray[j].writeConfig("positions","1,8,desktop:/welcome.desktop,0,2,desktop:/Network,0,1,desktop:/mycomputer.desktop,0,0")
         desktopsArray[j].writeConfig("pressToMove",true);
         desktopsArray[j].writeConfig("popups",false);
         desktopsArray[j].writeConfig("selectionMarkers",false);
         desktopsArray[j].writeConfig("sortMode","-1");
-//         [Containments][18][Wallpaper][org.kde.image][General]
-        desktopsArray[j].currentConfigGroup = new Array("Wallpaper", "org.kde.image", "General");
-        desktopsArray[j].writeConfig("Image", "file:///usr/share/wallpapers/Flux.png");
+        desktopsArray[j].currentConfigGroup = new Array("Wallpaper", "org.kde.color", "General");
+        desktopsArray[j].writeConfig("Color", "17,34,0");
     }
 }
