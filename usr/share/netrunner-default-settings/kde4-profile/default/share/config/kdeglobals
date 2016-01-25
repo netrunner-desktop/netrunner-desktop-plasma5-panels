@@ -141,10 +141,6 @@ menuFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=DejaVu Sans,8,-1,5,50,0,0,0,0,0
 toolBarFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
-widgetStyle=oxygen
-
-[Icons]
-Theme=oxygen
 
 [KDE]
 ShowDeleteCommand=false
