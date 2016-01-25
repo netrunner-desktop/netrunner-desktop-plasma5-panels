@@ -27,15 +27,7 @@ if (freeEdges["bottom"] == true) {
 
 panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 27
 
-var kicker = panel.addWidget("org.kde.plasma.kicker")
-kicker.currentConfigGroup = ["Shortcuts"]
-kicker.writeConfig("global", "Alt+F1")
-
-kicker.currentConfigGroup = ["General"]
-kicker.writeConfig("customButtonImage", "file:///usr/share/icons/hicolor/scalable/apps/homerun.svg")
-kicker.writeConfig("favoriteApps", "systemsettings.desktop,synaptic.desktop,org.kde.ksysguard.desktop")
-kicker.writeConfig("limitDepth", true)
-kicker.writeConfig("useCustomButtonImage", true)
+var simplemenu = panel.addWidget("org.kde.plasma.simplemenu")
 
 var eitm = panel.addWidget("org.kde.plasma.expandingiconstaskmanager")
 eitm.currentConfigGroup = ["Configuration", "General"]
@@ -52,7 +44,6 @@ yakuakeIcon.writeConfig("url", "/usr/share/applications/kde4/yakuake.desktop")
 var systray = panel.addWidget("org.kde.plasma.systemtray")
 systray.currentConfigGroup = ["General"]
 systray.writeConfig("extraItems","org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.volume")
-systray.writeConfig("hiddenItems","org.kde.plasma.clipboard,KMix")
 
 panel.addWidget("org.kde.plasma.digitalclock")
 panel.addWidget("org.kde.plasma.notifications")
@@ -61,6 +52,4 @@ var krunnerIcon = panel.addWidget("org.kde.plasma.icon")
 krunnerIcon.currentConfigGroup = ["General"]
 krunnerIcon.writeConfig("applicationName", "Krunner")
 krunnerIcon.writeConfig("iconName", "applications-system")
-krunnerIcon.writeConfig("url", "/usr/share/applications/kde4/krunner.desktop")
-
-
+krunnerIcon.writeConfig("url", "/etc/xdg/autostart/krunner.desktop")
