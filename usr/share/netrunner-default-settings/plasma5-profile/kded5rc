@@ -1,5 +1,17 @@
-[Module-appmenu]
+[Module-baloosearchmodule]
 autoload=false
 
-[Module-powerdevil]
+[Module-bluedevil]
+autoload=false
+
+[Module-kcookiejar]
+autoload=false
+
+[Module-kwrited]
+autoload=false
+
+[Module-solidautoeject]
+autoload=false
+
+[Module-touchpad]
 autoload=false
