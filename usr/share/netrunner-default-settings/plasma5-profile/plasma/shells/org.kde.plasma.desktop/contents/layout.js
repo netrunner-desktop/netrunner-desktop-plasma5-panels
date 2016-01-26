@@ -57,6 +57,6 @@ for (var i = 0; i < screenCount; ++i) {
         desktopsArray[j].writeConfig("selectionMarkers",false);
         desktopsArray[j].writeConfig("sortMode","-1");
         desktopsArray[j].currentConfigGroup = new Array("Wallpaper", "org.kde.color", "General");
-        desktopsArray[j].writeConfig("Color", "17,34,0");
+        desktopsArray[j].writeConfig("Color", "18,48,113");
     }
 }
