@@ -52,8 +52,3 @@ systray.writeConfig("knownItems", "org.kde.plasma.volume,org.kde.plasma.networkm
 panel.addWidget("org.kde.plasma.digitalclock")
 panel.addWidget("org.kde.plasma.notifications")
 
-var krunnerIcon = panel.addWidget("org.kde.plasma.icon")
-krunnerIcon.currentConfigGroup = ["General"]
-krunnerIcon.writeConfig("applicationName", "Krunner")
-krunnerIcon.writeConfig("iconName", "applications-system")
-krunnerIcon.writeConfig("url", "/etc/xdg/autostart/krunner.desktop")
