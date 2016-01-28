@@ -143,14 +143,14 @@ smallestReadableFont=DejaVu Sans,8,-1,5,50,0,0,0,0,0
 toolBarFont=DejaVu Sans,9,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=oxygen
+Theme=breeze
 
 [KDE]
-ColorScheme=Oxygen Cold
+ColorScheme=Carbon
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 contrast=4
-widgetStyle=oxygen
+widgetStyle=Breeze
 SingleClick=false
 
 [KDE-Global GUI Settings]
@@ -237,8 +237,8 @@ DisabledValue=1
 Size=22
 
 [WM]
-activeBackground=224,223,222                                                
-activeBlend=75,71,67 
+activeBackground=224,223,222
+activeBlend=75,71,67
 activeFont=DejaVu Sans,9,-1,5,75,0,0,0,0,0
 activeForeground=75,71,67
 inactiveBackground=224,223,222
