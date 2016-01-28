@@ -28,11 +28,11 @@ if (freeEdges["bottom"] == true) {
 panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 27
 
 var simplemenu = panel.addWidget("org.kde.plasma.simplemenu")
-simplemenu.currentConfigGroup = ["Configuration", "General"]
+simplemenu.currentConfigGroup = ["General"]
 simplemenu.writeConfig("favoriteApps", "org.kde.ksysguard.desktop,systemsettings.desktop,org.kde.konsole.desktop,synaptic.desktop")
 
 var eitm = panel.addWidget("org.kde.plasma.expandingiconstaskmanager")
-eitm.currentConfigGroup = ["Configuration", "General"]
+eitm.currentConfigGroup = ["General"]
 eitm.writeConfig("launchers" ,"file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=Dolphin,file:///usr/share/applications/firefox.desktop?wmClass=Firefox")
 eitm.writeConfig("showOnlyCurrentDesktop", true)
 
