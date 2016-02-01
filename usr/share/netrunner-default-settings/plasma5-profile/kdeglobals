@@ -130,7 +130,7 @@ Size=32
 
 [General]
 BrowserApplication[$e]=firefox.desktop
-ColorScheme=Netrunner15
+ColorScheme=Oxygen Cold
 Name=Breeze
 XftAntialias=true
 XftHintStyle=hintslight
