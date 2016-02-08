@@ -16,17 +16,18 @@ ViewPropsTimestamp=2014,10,31,11,52,25
 
 [IconsMode]
 FontWeight=50
-IconSize=96
-PreviewSize=96
+IconSize=80
+PreviewSize=80
 
 [MainWindow]
 ToolBarsMovable=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC6AAACYfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABBAAABNgAAAFQBAAAF+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABBAAACYQAAAFQBAAAFAAAAAQAAALoAAAJh/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAEEAAAJhAAABAwEAAAUAAAADAAAEegAAAMD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAEegAAAAwBAAAFAAADAAAAAmEAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 
-[Toolbar mainToolBar]
+[MainWindow][Toolbar mainToolBar]
 IconSize=32
 
 [PlacesPanel]
 IconSize=22
 
 [PreviewSettings]
-Plugins=imagethumbnail,jpegthumbnail,svgthumbnail,kffmpegthumbnailer
+Plugins=imagethumbnail,jpegthumbnail,svgthumbnail,ffmpegthumbs
