@@ -33,7 +33,7 @@ simplemenu.writeConfig("favoriteApps", "org.kde.ksysguard.desktop,systemsettings
 
 var eitm = panel.addWidget("org.kde.plasma.expandingiconstaskmanager")
 eitm.currentConfigGroup = ["General"]
-eitm.writeConfig("launchers" ,"file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=Dolphin,file:///usr/share/applications/firefox.desktop?wmClass=Firefox")
+eitm.writeConfig("launchers" ,"file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=Dolphin")
 eitm.writeConfig("showOnlyCurrentDesktop", true)
 
 var yakuakeIcon = panel.addWidget("org.kde.plasma.icon")

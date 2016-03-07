@@ -16,7 +16,6 @@ function show_deprecated {
 # Undo Diversions
 function undo_diversions {
     # Firefox (instead of old adjust.py script)
-    dpkg-divert --package netrunner-default-settings --remove --rename --divert /usr/lib/firefox/distribution/distribution.ini.orig /usr/lib/firefox/distribution/distribution.ini
     # kactivitymanager_file_item_linking_plugin
     dpkg-divert --package netrunner-default-settings --remove --rename --divert /usr/share/kservices5/kactivitymanagerd_fileitem_linking_plugin.desktop.orig /usr/share/kservices5/kactivitymanagerd_fileitem_linking_plugin.desktop
     # gmusicbrowser layout
