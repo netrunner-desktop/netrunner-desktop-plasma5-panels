@@ -312,6 +312,3 @@ Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absol
 Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
 _k_friendly_name=Graphic Tablet Configuration daemon
 
-[yakuake]
-_k_friendly_name=Yakuake
-toggle-window-state=F12,F12,Open/Retract Yakuake

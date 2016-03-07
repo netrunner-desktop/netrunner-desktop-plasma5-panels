@@ -234,7 +234,7 @@
   <Include>
    <Filename>kde4-k3b.desktop</Filename>
    <Filename>calibre-gui.desktop</Filename>
-   <Filename>kde4-yakuake.desktop</Filename>
+   <Filename>org.kde.yakuake.desktop</Filename>
   </Include>
   <Exclude>
    <Filename>virtualbox.desktop</Filename>
@@ -262,14 +262,14 @@
    <Separator/>
    <Menuname>More</Menuname>
    <Filename>kde4-k3b.desktop</Filename>
-   <Filename>kde4-yakuake.desktop</Filename>
+   <Filename>org.kde.yakuake.desktop</Filename>
   </Layout>
  </Menu>
  <Menu>
   <Name>System</Name>
   <Exclude>
    <Filename>kde4-k3b.desktop</Filename>
-   <Filename>kde4-yakuake.desktop</Filename>
+   <Filename>org.kde.yakuake.desktop</Filename>
    <Filename>grub-customizer.desktop</Filename>
   </Exclude>
   <Include>
