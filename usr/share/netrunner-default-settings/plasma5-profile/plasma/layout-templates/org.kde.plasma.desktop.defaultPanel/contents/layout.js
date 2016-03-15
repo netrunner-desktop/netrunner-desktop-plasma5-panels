@@ -30,6 +30,7 @@ panel.height = screenGeometry(panel.screen).height > 1024 ? 35 : 27
 var simplemenu = panel.addWidget("org.kde.plasma.simplemenu")
 simplemenu.currentConfigGroup = ["General"]
 simplemenu.writeConfig("favoriteApps", "org.kde.ksysguard.desktop,systemsettings.desktop,org.kde.konsole.desktop,synaptic.desktop")
+simplemenu.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop")
 
 var eitm = panel.addWidget("org.kde.plasma.expandingiconstaskmanager")
 eitm.currentConfigGroup = ["General"]
