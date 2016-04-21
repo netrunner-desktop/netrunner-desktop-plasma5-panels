@@ -7,10 +7,6 @@ Standards-Version: 3.7.2
 
 Package: netrunner-core-settings
 Architecture: any
-Provides: netrunner-core-settings
-Conflicts: kubuntu-settings-desktop
-Replaces: netrunner-artwork (<< 1.0.84), plasma-desktopthemes-artwork
-Breaks: netrunner-artwork (<< 1.0.84), plasma-desktopthemes-artwork
 Depends: novnc, netrunner-default-settings
 Description: Configuration of the Netrunner release.
   This package provides configuration files and scripted changes for the Netrunner release.
