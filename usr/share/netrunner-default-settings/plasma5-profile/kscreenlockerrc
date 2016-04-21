@@ -1,7 +1,0 @@
-[Daemon]
-Timeout=0
-Autolock=false
-
-[Greeter]
-Theme=org.kde.breeze.desktop
-ThemeBackground=/usr/share/wallpapers/Central Station.jpg

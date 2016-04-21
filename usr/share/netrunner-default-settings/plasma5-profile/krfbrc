@@ -1,8 +1,0 @@
-[MainWindow]
-startMinimized=true
-
-[Security]
-allowUnattendedAccess=true
-desktopPassword=ﾳﾶﾩﾺ
-noWallet=true
-unattendedPassword=ﾳﾶﾩﾺ

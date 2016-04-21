@@ -1,16 +1,16 @@
-Source: netrunner-default-settings
+Source: netrunner-core-settings
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: netrunner-default-settings
+Package: netrunner-core-settings
 Architecture: any
-Provides: netrunner-default-settings
+Provides: netrunner-core-settings
 Conflicts: kubuntu-settings-desktop
 Replaces: netrunner-artwork (<< 1.0.84), plasma-desktopthemes-artwork
 Breaks: netrunner-artwork (<< 1.0.84), plasma-desktopthemes-artwork
-Depends: novnc
+Depends: novnc, netrunner-default-settings
 Description: Configuration of the Netrunner release.
   This package provides configuration files and scripted changes for the Netrunner release.
