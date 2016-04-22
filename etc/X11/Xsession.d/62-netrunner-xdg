@@ -8,5 +8,3 @@ if [ -z "$XDG_DATA_DIRS" ]; then
 fi
 export XDG_DATA_DIRS=/usr/share/netrunner-core-settings/plasma5-profile:$XDG_DATA_DIRS 
 
-# Also explicetly set KDE4 Plugins Path
-export QT_PLUGIN_PATH=$(kde4-config --path qtplugins)
