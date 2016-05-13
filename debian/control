@@ -7,6 +7,6 @@ Standards-Version: 3.7.2
 
 Package: netrunner-core-settings
 Architecture: any
-Depends: novnc, netrunner-default-settings
+Depends: netrunner-default-settings
 Description: Configuration of the Netrunner release.
   This package provides configuration files and scripted changes for the Netrunner release.
