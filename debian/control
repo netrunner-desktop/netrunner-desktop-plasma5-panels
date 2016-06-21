@@ -1,12 +1,12 @@
-Source: netrunner-core-settings
+Source: netrunner-plasma5-panels
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: netrunner-core-settings
+Package: netrunner-plasma5-panels
 Architecture: any
-Depends: netrunner-default-settings
+Depends: default-settings-xsession
 Description: Configuration of the Netrunner release.
   This package provides configuration files and scripted changes for the Netrunner release.
