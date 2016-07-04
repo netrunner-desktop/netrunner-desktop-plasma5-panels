@@ -31,10 +31,11 @@ var simplemenu = panel.addWidget("org.kde.plasma.simplemenu")
 simplemenu.currentConfigGroup = ["General"]
 simplemenu.writeConfig("favoriteApps", "org.kde.ksysguard.desktop,systemsettings.desktop,org.kde.konsole.desktop,synaptic.desktop")
 simplemenu.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop")
+simplemenu.writeConfig("customButtonImage", "/usr/share/icons/hicolor/scalable/apps/homerun.svg")
 
 var eitm = panel.addWidget("org.kde.plasma.expandingiconstaskmanager")
 eitm.currentConfigGroup = ["General"]
-eitm.writeConfig("launchers" ,"file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=Dolphin")
+eitm.writeConfig("launchers" ,"file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=Dolphin,file:///usr/share/applications/firefox.desktop")
 eitm.writeConfig("showOnlyCurrentDesktop", true)
 
 var yakuakeIcon = panel.addWidget("org.kde.plasma.icon")
