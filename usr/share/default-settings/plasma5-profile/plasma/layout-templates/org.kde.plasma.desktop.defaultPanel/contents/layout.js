@@ -34,10 +34,12 @@ simplemenu.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop")
 simplemenu.writeConfig("useCustomButtonImage", true)
 simplemenu.writeConfig("customButtonImage", "/usr/share/icons/hicolor/scalable/apps/homerun.svg")
 
-var eitm = panel.addWidget("org.kde.plasma.expandingiconstaskmanager")
+var eitm = panel.addWidget("org.kde.plasma.taskmanager")
 eitm.currentConfigGroup = ["General"]
 eitm.writeConfig("launchers" ,"file:///usr/share/applications/org.kde.dolphin.desktop?wmClass=Dolphin,file:///usr/share/applications/firefox.desktop")
 eitm.writeConfig("showOnlyCurrentDesktop", true)
+eitm.writeConfig("separateLaunchers", false)
+eitm.writeConfig("groupPopups", false)
 
 var yakuakeIcon = panel.addWidget("org.kde.plasma.icon")
 yakuakeIcon.currentConfigGroup = ["General"]
