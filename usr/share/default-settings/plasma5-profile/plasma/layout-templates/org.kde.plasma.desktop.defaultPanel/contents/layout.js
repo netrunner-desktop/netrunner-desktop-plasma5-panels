@@ -40,6 +40,7 @@ eitm.writeConfig("launchers" ,"file:///usr/share/applications/org.kde.dolphin.de
 eitm.writeConfig("showOnlyCurrentDesktop", true)
 eitm.writeConfig("separateLaunchers", false)
 eitm.writeConfig("groupPopups", false)
+eitm.writeConfig("sortingStrategy", 1)
 
 var yakuakeIcon = panel.addWidget("org.kde.plasma.icon")
 yakuakeIcon.currentConfigGroup = ["General"]
