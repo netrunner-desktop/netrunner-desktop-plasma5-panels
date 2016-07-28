@@ -1,3 +1,3 @@
-netrunner-default-settings
+netrunner-plasma5-panels
 ==========================
-Default settings for KDE4 and applications for Netrunner. 
+Netrunner specific Plasma 5 Panels
