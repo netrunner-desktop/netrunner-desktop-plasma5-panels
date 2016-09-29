@@ -1,11 +1,11 @@
-Source: netrunner-plasma5-panels
+Source: netrunner-desktop-plasma5-panels
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: netrunner-plasma5-panels
+Package: netrunner-desktop-plasma5-panels
 Architecture: any
 Depends: default-settings-xsession
 Description: Configuration of the Netrunner release.
