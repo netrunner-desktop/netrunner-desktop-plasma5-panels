@@ -33,6 +33,7 @@ simplemenu.writeConfig("favoriteApps", "org.kde.ksysguard.desktop,systemsettings
 simplemenu.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop,libreoffice-draw.desktop,libreoffice-base.desktop,libreoffice-math.desktop")
 simplemenu.writeConfig("useCustomButtonImage", true)
 simplemenu.writeConfig("customButtonImage", "/usr/share/icons/hicolor/scalable/apps/homerun.svg")
+simplemenu.writeConfig("alphaSort", true)
 
 var eitm = panel.addWidget("org.kde.plasma.taskmanager")
 eitm.currentConfigGroup = ["General"]
